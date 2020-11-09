@@ -9,8 +9,7 @@
 > ```py __main__.py```
 
 # Some information
-> This software allows you to download the MP4 directly (with progress bar) or via HLS.
-> You need to install ffmpeg.
+> This software allows you to download the MP4 directly (with progress bar) or via HLS (You need to install ffmpeg).
 
 # What it looks like
 ![menu](https://imgur.com/7Zg4ODm.png)
