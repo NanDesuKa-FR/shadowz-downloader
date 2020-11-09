@@ -73,7 +73,7 @@ def Downloader(link):
                             f.flush()
                 loop = False
             elif reponse == "2":
-                commandvostfr = 'ffmpeg.exe -protocol_whitelist file,http,https,tcp,tls,crypto -i "{url_m3u8}" -c copy -bsf:a aac_adtstoasc -y "{outputName}"'.format(outputName=title + ".mp4", url_m3u8=hls)
+                commandvostfr = 'ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto -i "{url_m3u8}" -c copy -bsf:a aac_adtstoasc -y "{outputName}"'.format(outputName=title + ".mp4", url_m3u8=hls)
                 subprocess.call(commandvostfr, shell=True)
                 loop = False
 
